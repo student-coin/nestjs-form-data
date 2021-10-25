@@ -41,7 +41,7 @@ export class FormDataInterceptor implements NestInterceptor {
         if (config.autoDeleteFile)
           formReader.deleteFiles();
       }));
-    } catch (err) {
+    } catch (err: any) {
       if (config.autoDeleteFile)
         formReader.deleteFiles();
 
