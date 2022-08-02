@@ -1,6 +1,6 @@
 {
   "name": "@student-coin/nestjs-form-data",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "",
   "main": "dist/index",
   "types": "dist/index",
@@ -23,7 +23,7 @@
   "devDependencies": {
     "@nestjs/common": "^8.1.0",
     "@nestjs/core": "^8.1.0",
-    "class-transformer": "^0.4.0",
+    "class-transformer": "^0.5.0",
     "class-validator": "^0.13.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.4.0",
@@ -44,7 +44,7 @@
   "peerDependencies": {
     "@nestjs/common": "^8.1.0",
     "@nestjs/core": "^8.1.0",
-    "class-transformer": "^0.4.0",
+    "class-transformer": "^0.5.0",
     "class-validator": "^0.13.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.4.0"
